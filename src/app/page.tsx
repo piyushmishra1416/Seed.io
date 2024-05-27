@@ -1,14 +1,11 @@
-'use client';
-
-import Link from 'next/link'
+"use client";
+import Link from "next/link";
 import { Container, Flex, Box, Title, Text, Button } from "@mantine/core";
 import Image from "next/image";
-import image1 from "../../public/image1.png";  // Ensure the path is correct
+import image1 from "../../public/image1.png"; 
 import { IconCloudUp } from "@tabler/icons-react";
-// Import your component
 
 export default function Home() {
-
   return (
     <Container size="lg" style={{ textAlign: "center", paddingTop: "50px" }}>
       <Flex
@@ -25,15 +22,15 @@ export default function Home() {
             online
           </Text>
           <Link href="/dashboard" scroll={false}>
-          <Button
-            variant="filled"
-            size="lg"
-            rightSection={<IconCloudUp size={14} />}
-            mt="md"
-            radius="md"
-          >
-            Add Audio to your Video
-          </Button>
+            <Button
+              variant="filled"
+              size="lg"
+              rightSection={<IconCloudUp size={14} />}
+              mt="md"
+              radius="md"
+            >
+              Add Audio to your Video
+            </Button>
           </Link>
         </Box>
         <Box style={{ flex: 1, maxWidth: "100%" }}>
