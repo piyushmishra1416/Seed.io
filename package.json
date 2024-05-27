@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "github:fortawesome/react-fontawesome",
     "@mantine/core": "^7.10.0",
     "@mantine/dropzone": "^7.10.0",
     "@mantine/hooks": "^7.10.0",
@@ -16,7 +18,8 @@
     "autoprefixer": "^10.4.19",
     "next": "14.2.3",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "wavesurfer-react": "^3.0.2"
   },
   "devDependencies": {
     "@types/node": "^20",

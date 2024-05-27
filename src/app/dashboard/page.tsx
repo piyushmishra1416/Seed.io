@@ -3,15 +3,19 @@
 
 import { DoubleNavbar } from '@/components/DoubleNavbar';
 import { Fileuploader } from '@/components/DropZoneButton';
-import { Box, Flex } from '@mantine/core';
+import TrimAudio from '@/components/TrimAudio';
+import { Box, Flex, Stack } from '@mantine/core';
 import React from 'react';
 
 export default function Dashboard() {
   return (
-    <Box>
-<Fileuploader/>
+    <Flex direction={"row"}>
+    <DoubleNavbar />
+    <Stack justify="space-between">
 
-</Box>
+      <TrimAudio />
+    </Stack>
+  </Flex>
 
   );
 }
